@@ -127,7 +127,7 @@ def page_rows(rows, offset, limit):
 
 def sort_list(rows, key, reverse=False):
     """按指定键对列表排序。"""
-    return sorted(rows, key=key, reverse=not reverse)
+    return sorted(rows, key=key, reverse=reverse)
 
 
 def frozen_now(contest):
